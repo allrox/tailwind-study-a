@@ -35,7 +35,7 @@ module.exports = {
           '@apply saturate-0': {},
         },
         '.star-rating img': {
-          '@apply w-4 h-fit hover:w-5': {},
+          '@apply w-4 h-4 hover:scale-110': {},
         },
         '.old-price':{
           '@apply text-base line-through text-red-600 font-bold':{},
@@ -58,6 +58,18 @@ module.exports = {
         '.primary-button':{
           '@apply rounded-lg w-full bg-sky-900 hover:bg-sky-800 text-white px-5 py-4 mt-5 text-xl': {},
         },
+        '.content-card':{
+          '@apply p-4 pb-8 bg-white rounded-md hover:shadow-xl':{},
+        },
+        '.content-card-image': {
+          '@apply relative': {},
+        },
+        '.content-title':{
+          '@apply absolute bottom-10 w-full text-center text-3xl font-bold text-white': {}
+        },
+        '.card-link':{
+          '@apply text-base text-blue-700 font-bold py-2':{}
+        }
       });
     },
   ],
