@@ -8,7 +8,7 @@ module.exports = {
     function ({ addComponents }) {
       addComponents({
         '.product-card': {
-          '@apply bg-white p-3 rounded-lg hover:shadow-xl': {},
+          '@apply bg-white p-3 rounded-lg shadow-xl': {},
         },
         '.card-image-container':{
           '@apply relative rounded-lg mb-3': {},
@@ -35,31 +35,34 @@ module.exports = {
           '@apply saturate-0': {},
         },
         '.star-rating img': {
-          '@apply w-4 h-4 hover:scale-110': {},
+          '@apply w-3 h-3 hover:scale-110': {},
         },
         '.old-price':{
-          '@apply text-base line-through text-red-600 font-bold':{},
+          '@apply text-base md:text-3xl lg:text-lg line-through text-red-600 font-bold me-1':{},
         },
         '.pricing': {
-          '@apply text-3xl text-center font-bold mt-1 tracking-tighter': {},
+          '@apply text-3xl md:text-5xl lg:text-3xl text-center font-bold mt-1 tracking-tighter items-start': {},
         },
         '.pricing span':{
-          '@apply text-4xl font-bold': {},
+          '@apply text-4xl md:text-6xl lg:text-4xl font-bold': {},
         },
         '.pricing-container':{
-          '@apply container flex flex-row items-center gap-2':{},
+          '@apply container flex flex-wrap items-center justify-center gap-2 pt-2':{},
         },
         '.card-title':{
-          '@apply text-xl font-bold text-sky-900': {},
+          '@apply text-xl md:text-3xl lg:text-xl font-bold text-sky-900': {},
         },
         '.card-description':{
-          '@apply text-base':{},
+          '@apply text-sm md:text-lg':{},
         },
         '.primary-button':{
-          '@apply rounded-lg w-full bg-sky-900 hover:bg-sky-800 text-white px-5 py-4 mt-5 text-xl': {},
+          '@apply rounded-lg w-full bg-sky-900 hover:bg-sky-800 text-white px-3 py-3 md:px-7 md:py-5 mt-5 text-xl md:text-2xl': {},
+        },
+        '.primary-button i':{
+          '@apply me-1': {},
         },
         '.content-card':{
-          '@apply p-4 pb-8 bg-white rounded-md hover:shadow-xl':{},
+          '@apply p-4 pb-8 bg-white rounded-md shadow-xl':{},
         },
         '.content-card-image': {
           '@apply relative': {},
