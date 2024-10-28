@@ -35,25 +35,25 @@ module.exports = {
           '@apply saturate-0': {},
         },
         '.star-rating img': {
-          '@apply w-3 h-3 hover:scale-110': {},
+          '@apply w-3 h-3 hover:scale-125': {},
         },
         '.old-price':{
-          '@apply text-base md:text-3xl lg:text-lg line-through text-red-600 font-bold me-1':{},
+          '@apply text-sm md:text-base lg:text-base line-through text-red-600 me-2':{},
         },
         '.pricing': {
-          '@apply text-3xl md:text-5xl lg:text-3xl text-center font-bold mt-1 tracking-tighter items-start': {},
+          '@apply text-2xl text-center font-bold mt-1 tracking-tighter items-start': {},
         },
         '.pricing span':{
-          '@apply text-4xl md:text-6xl lg:text-4xl font-bold': {},
+          '@apply text-3xl font-bold': {},
         },
         '.pricing-container':{
-          '@apply container flex flex-wrap items-center justify-center gap-2 pt-2':{},
+          '@apply container flex flex-wrap items-center justify-start':{},
         },
         '.card-title':{
           '@apply text-xl md:text-3xl lg:text-xl font-bold text-sky-900': {},
         },
         '.card-description':{
-          '@apply text-sm md:text-lg':{},
+          '@apply text-base md:text-base':{},
         },
         '.primary-button':{
           '@apply rounded-lg w-full bg-sky-900 hover:bg-sky-800 text-white px-3 py-3 md:px-7 md:py-5 mt-5 text-xl md:text-2xl': {},
